@@ -2,10 +2,10 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="https://github.com/android" />
+           fetch="https://github.com/android/" />
   <default revision="refs/tags/android-5.0.0_r2"
            remote="aosp"
-           sync-j="4" />
+           sync-j="8" />
 
   <project path="build" name="platform/build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
